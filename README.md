@@ -1,6 +1,6 @@
 # CycIF Image Registration Tool
 
-This script, `ImageRegistration_v4.py`, provides a flexible tool for aligning and registering images from multiple timepoints based on a user-specified channel (default is `DAPI`). The tool uses SIFT keypoints and affine transformation to align images across different timepoints.
+This script, `ImageRegistration_v4.py`, provides a tool for aligning and registering images from multiple rounds of cyclic immunofluorescence staining based on a user-specified channel which is the same staining across all cycles. This would generally be a nuclear dye (the default is `DAPI`). The tool uses SIFT keypoints and a rigid affine transformation to align images images from latter cycles back to the first cycle.
 
 ## Table of Contents
 - [Installation](#installation)
